@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+  
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 56px;
+    background-color: #18191d5c;
+    z-index: 1;
+}
+  
+nav {
+    max-width: 768px;
+    margin: 0 auto;
+}
+  
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    line-height: 56px;
+}
+  
+nav li {
+    list-style: none;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #c9cad5;
+    font-size: 14px;
+    transition: color 0.5s ease;
+}
+  
+nav a:hover {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-fold {
+    height: 100vh;
+    background-color: rgb(91, 143, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.hero-fold-content {
+    width: 1024px;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+.red-fold {
+    height: 100vh;
+    background-color: rgb(255, 102, 102);
+}
+  
+ */
+ 
+.red-fold {
+    background-color: #ff8d8d; /* set the background color of the fold */
+    height: 100vh; /* set the height of the fold to 50% of the viewport height */
+    display: flex; /* use flexbox to vertically center the content */
+    justify-content: center; /* horizontally center the content */
+    align-items: center; /* vertically center the content */
+  }
+  
+  .fold-content {
+    width: 100%; /* make the content full width */
+    max-width: 1024px; /* set a maximum width */
+    padding: 20px; /* add padding to the content */
+    background-color: red;
+  }
+  
+  .two-columns {
+    display: flex; /* use flexbox to create two columns */
+    flex-wrap: wrap; /* allow columns to wrap if necessary */
+    background-color: blue;
+  }
+  
+  .column {
+    width: 50%; /* set the width of each column to 50% */
+    box-sizing: border-box; /* include padding and border in the width */
+    padding: 20px; /* add some padding to each column */
+    background-color: purple;
+  }
+  
+  
